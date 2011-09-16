@@ -66,7 +66,7 @@ MyBox.prototype = {
     }
 };
 
-function main() {
+function main(meta) {
     let dateMenu = Main.panel._dateMenu;
     Main.panel._centerBox.remove_actor(dateMenu.actor);
 
@@ -77,4 +77,14 @@ function main() {
 
     let children = Main.panel._rightBox.get_children();
     Main.panel._rightBox.insert_actor(dateMenu.actor, children.length);
+}
+
+function init(meta) {
+    main(meta);
+}
+
+function enable() {
+}
+
+function disable() {
 }
