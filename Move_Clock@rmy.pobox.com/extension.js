@@ -76,5 +76,5 @@ function main() {
     dateMenu.actor.set_child(box.actor);
 
     let children = Main.panel._rightBox.get_children();
-    Main.panel._rightBox.insert_actor(dateMenu.actor, children.length-1);
+    Main.panel._rightBox.insert_actor(dateMenu.actor, children.length);
 }
