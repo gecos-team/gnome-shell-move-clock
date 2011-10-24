@@ -73,7 +73,7 @@ function main(meta) {
     let label = dateMenu._clock;
     dateMenu.actor.remove_actor(label);
     let box = new MyBox(label);
-    dateMenu.actor.set_child(box.actor);
+    dateMenu.actor.add_actor(box.actor);
 
     let children = Main.panel._rightBox.get_children();
     Main.panel._rightBox.insert_actor(dateMenu.actor, children.length);
