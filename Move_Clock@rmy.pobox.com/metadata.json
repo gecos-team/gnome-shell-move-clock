@@ -1,1 +1,7 @@
-{"shell-version": ["3.0.2"], "uuid": "Move_Clock@rmy.pobox.com", "name": "Move Clock", "description": "Move clock to right of status menu button", "url": "http://www.emergya.es"}
+{
+    "shell-version": ["3.2.0"],
+    "uuid": "Move_Clock@rmy.pobox.com",
+    "name": "Move Clock",
+    "description": "Move clock to right of status menu button",
+    "url": "http://www.guadalinex.org"
+}
